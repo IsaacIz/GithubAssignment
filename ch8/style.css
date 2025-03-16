@@ -54,6 +54,8 @@ nav a:visited {
     width: 30%;
     margin-right: 20px;
     border-radius: 10px;
+    height: auto;
+     max-width: 100%;
 }
 
 .hero-text {
@@ -76,6 +78,8 @@ nav a:visited {
 
 .feature img {
     width: 40%;
+    max-width: 100%;
+    height: auto;
 }
 
 .footer {
