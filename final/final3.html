@@ -1,0 +1,100 @@
+<!--Isaac Ismert 5/9/2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuclear Energy: Get Involved</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="horizontal-nav top-nav">
+            <a href="final1.html">Home</a>
+            <a href="final2.html">Concepts & Technologies</a>
+            <a href="final3.html" class="active">Get Involved</a>
+            <a href="final4.html">Credits</a>
+        </nav>
+
+        <main class="container">
+            <section class="main-content">
+                <img src="NuclearPowerSunset.png" alt="Shows a plant with a sunset behind it">
+                <h2>Get Involved with Nuclear Energy</h2>
+                <p>Interested in learning more or getting involved in the field of nuclear energy? Fill out the form below!</p>
+               
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="interest">Your Interest:</label>
+                        <select id="interest" name="interest">
+                            <option value="">Select an option</option>
+                            <option value="student">Student/Education</option>
+                            <option value="professional">Professional Development</option>
+                            <option value="advocacy">Advocacy/Support</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Areas of Interest:</label><br>
+                        <label for="safety">Safety Regulations</label>
+                        <input type="checkbox" id="safety" name="interest_area" value="safety"><br>
+
+                        <label for="technology">Reactor Technology</label>
+                        <input type="checkbox" id="technology" name="interest_area" value="technology"><br>
+                        
+                        <label for="policy">Energy Policy</label>
+                        <input type="checkbox" id="policy" name="interest_area" value="policy"><br>
+
+                        <label for="waste">Waste Management</label>
+                        <input type="checkbox" id="waste" name="interest_area" value="waste"><br>
+
+                        <label for="future">Future Innovations</label>
+                        <input type="checkbox" id="future" name="interest_area" value="future"><br>
+
+                    </div>
+
+                    <div>
+                        <label>Are you a student?</label><br>
+                        <input type="radio" id="student_yes" name="student_status" value="yes">
+                        <label for="student_yes">Yes</label>
+                        <input type="radio" id="student_no" name="student_status" value="no">
+                        <label for="student_no">No</label>
+                    </div>
+
+                    <div>
+                        <label for="birthdate">Date of Birth:</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                    </div>
+
+                    <div>
+                        <label for="comments">Comments:</label><br>
+                        <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+                    </div>
+
+                    <div class="form-buttons">
+                        <input type="submit" value="Submit Inquiry">
+                        <input type="reset" value="Reset Form">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer class="horizontal-nav bottom-nav">
+            <a href="final1.html">Home</a>
+            <a href="final2.html">Concepts & Technologies</a>
+            <a href="final3.html" class="active">Get Involved</a>
+            <a href="final4.html">Credits</a>
+        </footer>
+    </div>
+</body>
+</html>
